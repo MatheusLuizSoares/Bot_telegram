@@ -15,3 +15,4 @@ def get_info_cep(cep):
 
 d=get_info_cep('01001000')
 print(d)
+print(d['logradouro'])
